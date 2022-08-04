@@ -1,9 +1,11 @@
 import { useState } from "react";
+import NavBar from "./components/NavBar";
 
 export default function Home() {
   const [counter, setCounter] = useState(0);
   return (
     <>
+      <NavBar />
       <h1>next js 시작하기</h1>
       <div>
         1. 파일 생성: npx-create-next-app <br />

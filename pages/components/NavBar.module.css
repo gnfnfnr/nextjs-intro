@@ -1,0 +1,11 @@
+.link {
+  text-decoration: none;
+}
+
+.active {
+  color: red;
+}
+
+.non {
+  color: blue;
+}
